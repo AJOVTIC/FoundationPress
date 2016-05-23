@@ -49,3 +49,11 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
+
+
+/** SmartWay changes*/
+
+/** Include the TGM_Plugin_Activation class. */
+require_once dirname( __FILE__ ) . '/includes/plugins/class-tgm-plugin-activation.php';
+/* Include visual composer initialization */
+include_once('includes/plugins/visual-composer.php');
